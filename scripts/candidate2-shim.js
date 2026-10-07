@@ -15,13 +15,15 @@
       incoming
     );
 
-    n.hotspot = 1;
-    n.pppoe = 1;
-    n.vendo = 1;
+    n.hotspot = 1000;
+    n.pppoe = 1000;
+    n.vendo = 1000;
     n.movie = true;
     n.eload = true;
     n.checked = FUTURE;
     n.expiration = FUTURE;
+
+    n.level = 4;
 
     return n;
   }

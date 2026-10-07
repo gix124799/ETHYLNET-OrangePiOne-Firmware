@@ -1,0 +1,55 @@
+ETHYLNET Orange Pi One Candidate4
+=================================
+
+Raw image:
+/home/ethylnet/ETHYLNET-OrangePiOne-Audit/output/ETHYLNET-OrangePiOne-candidate4-policy.img
+
+Raw SHA256:
+21186098b4e6b518ee6b39c0801d8e3bfa505c750f09755f2bbb4a42ce38a8c2
+
+Compressed package:
+/home/ethylnet/ETHYLNET-OrangePiOne-Audit/output/ETHYLNET-OrangePiOne-UNLIMITED-CANDIDATE4.img.gz
+
+Compressed SHA256:
+880bd3bc14a3fb75855661eb38d3acb5d151b6e5ceaa1228a26e085545d869a5
+
+Original image:
+/home/ethylnet/ETHYLNET-OrangePiOne-Audit/original/orangepi-one.img
+
+Image size:
+1654653743 bytes
+
+Partition layout:
+P1 start=2048 sectors=131072
+P2 start=135168 sectors=3096576
+
+P2 offset:
+69206016
+
+P2 size:
+1585446912
+
+Trailer size:
+815 bytes
+
+Final index.o SHA256:
+86860df8931acfb55115ff299cc7f4b13f637f32fd39b6952208c0c55d3c71c2
+
+Verification:
+- Original partition table identical
+- Original raw MBR identical
+- Original prefix/boot bytes identical
+- Original P1 byte-identical
+- Original 815-byte trailer identical
+- Candidate4 filesystem delta set accounted for
+- Dropbear configuration byte-identical
+- Dropbear init script byte-identical
+- Dropbear startup preserved
+- Vendor remote startup links absent
+- Final index.o verified
+- Deterministic gzip package verified
+- Decompressed gzip reproduces raw image exactly
+
+Packaging status:
+COMPRESSED=YES
+RELEASED=NO

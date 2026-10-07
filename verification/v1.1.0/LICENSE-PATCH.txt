@@ -1,0 +1,29 @@
+ETHYLNET Orange Pi One v1.1.0
+LICENSE PATCH
+=============================
+
+Level:        4
+HotSpot max:  1000
+PPPoE max:    1000
+Vendo max:    1000
+eLoad:        Enabled
+Movie:        Enabled
+Expiration:   Lifetime
+
+Serial display:
+OPI-[LAST 10 OF ACTUAL SERIAL]
+
+Backend/device identity:
+ORIGINAL HARDWARE SERIAL PRESERVED
+
+eLoad provider/API credential flow:
+PRESERVED
+
+Final /soft/index.o SHA256:
+86860df8931acfb55115ff299cc7f4b13f637f32fd39b6952208c0c55d3c71c2
+
+Raw firmware SHA256:
+21186098b4e6b518ee6b39c0801d8e3bfa505c750f09755f2bbb4a42ce38a8c2
+
+Compressed stable firmware SHA256:
+880bd3bc14a3fb75855661eb38d3acb5d151b6e5ceaa1228a26e085545d869a5

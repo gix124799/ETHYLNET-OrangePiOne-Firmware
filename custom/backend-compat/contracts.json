@@ -1,0 +1,65 @@
+{
+  "policy": {
+    "level": 4,
+    "hotspot_max": 1000,
+    "pppoe_max": 1000,
+    "vendo_max": 1000,
+    "eload": true,
+    "movie": true,
+    "serial": "OPI-[LAST 10 OF ACTUAL SERIAL]",
+    "expiration": "Lifetime"
+  },
+
+  "socket": {
+    "/pppoe": {
+      "event": "get-info",
+      "callback_style": true,
+      "payload_shape_verified": true,
+      "response": {
+        "active": {
+          "expired": "boolean",
+          "remoteIP": "string",
+          "mac": "string",
+          "uptime": "number"
+        },
+        "info": {
+          "expiration": "number",
+          "download": "number|string",
+          "upload": "number|string"
+        }
+      }
+    },
+
+    "@E-Load-TX:getAllowed": {
+      "payload_shape_verified": true,
+      "payload": {
+        "getAllowed": true,
+        "serial": "OPI-[LAST 10 OF ACTUAL SERIAL]"
+      }
+    },
+
+    "@E-Load-RX": {
+      "payload_shape_verified": true,
+      "payload": {
+        "allowed": "boolean",
+        "apikey": "string|null"
+      }
+    }
+  },
+
+  "backend": {
+    "pppoe_access_check": {
+      "verified": true,
+      "success": {
+        "ok": true,
+        "message": ""
+      },
+      "capacity": 1000
+    }
+  },
+
+  "voucher": {
+    "payload_shape_verified": false,
+    "status": "leave original behavior untouched until exact contract is complete"
+  }
+}
