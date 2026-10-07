@@ -1,0 +1,18 @@
+--- /home/ethylnet/ETHYLNET-OrangePiOne-Audit/logs/p2-strict/rc-original.txt	2026-10-07 18:46:25.505494502 +0800
++++ /home/ethylnet/ETHYLNET-OrangePiOne-Audit/logs/p2-strict/rc-modified.txt	2026-10-07 18:46:25.537494944 +0800
+@@ -22,7 +22,6 @@
+ S19firewall -> ../init.d/firewall
+ S200soft -> ../init.d/soft
+ S20network -> ../init.d/network
+-S250ngrok -> ../init.d/ngrok
+ S25packet_steering -> ../init.d/packet_steering
+ S35odhcpd -> ../init.d/odhcpd
+ S50cron -> ../init.d/cron
+@@ -30,7 +29,6 @@
+ S80blockd -> ../init.d/blockd
+ S80nginx -> ../init.d/nginx
+ S90irqbalance -> ../init.d/irqbalance
+-S90zerotier -> ../init.d/zerotier
+ S94gpio_switch -> ../init.d/gpio_switch
+ S95done -> ../init.d/done
+ S96led -> ../init.d/led

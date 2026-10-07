@@ -1,0 +1,28 @@
+# Large disk images and release artifacts
+*.img
+*.img.gz
+*.img.xz
+*.iso
+
+# Extracted filesystems
+rootfs/
+mnt/
+emulation/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Secrets
+.env
+*.key
+*.pem
+id_rsa
+id_ed25519
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

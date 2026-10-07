@@ -1,0 +1,3 @@
+Only in /home/ethylnet/ETHYLNET-OrangePiOne-Audit/mnt/p2-original-ro/etc/rc.d: S250ngrok
+Only in /home/ethylnet/ETHYLNET-OrangePiOne-Audit/mnt/p2-original-ro/etc/rc.d: S90zerotier
+Files /home/ethylnet/ETHYLNET-OrangePiOne-Audit/mnt/p2-original-ro/soft/index.o and /home/ethylnet/ETHYLNET-OrangePiOne-Audit/mnt/p2-modified-ro/soft/index.o differ

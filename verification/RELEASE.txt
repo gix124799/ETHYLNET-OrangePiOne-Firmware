@@ -1,0 +1,61 @@
+ETHYLNET Orange Pi One
+UNLIMITED STABLE Firmware
+
+Artifact:
+ETHYLNET-OrangePiOne-UNLIMITED-STABLE.img.gz
+
+Compressed SHA256:
+e79906da4b788da9fd5bc0144c6ba1b2357adc87af63b41a3b3ca5661b6df79e
+
+Decompressed RAW SHA256:
+171a9a074feb350a7df9fa4a8267a558b8f083852226c8180ca198687cce2f61
+
+Raw Size:
+1654653743 bytes
+
+Modified RootFS SHA256:
+e27a37105ff0207807962e29312008e740bb5f30b8a927f7d792fae44eb53612
+
+Modified /soft/index.o SHA256:
+2ccad853b252aaa842b53052295fe1be0756b68ddade52767c980087aa47d195
+
+VERIFICATION
+------------
+
+PASS - Original MBR preserved
+PASS - Original partition geometry preserved
+PASS - Original FAT16 boot partition preserved
+PASS - Bytes before p2 preserved
+PASS - Modified p2 written exactly
+PASS - Bytes after p2 preserved
+PASS - Original 815-byte firmware trailer preserved
+PASS - Original final 303-byte metadata preserved
+PASS - gzip integrity
+PASS - decompressed SHA256 matches verified raw image
+PASS - decompressed byte count matches original raw geometry
+
+INTENTIONAL ROOTFS CHANGES
+--------------------------
+
+1. /soft/index.o replaced by verified ETHYLNET Candidate 2 runtime
+2. /etc/rc.d/S250ngrok removed
+3. /etc/rc.d/S90zerotier removed
+
+PRESERVED
+---------
+
+- Local Dropbear SSH
+- soft startup service
+- nginx
+- portal/vendo infrastructure
+- PPPoE infrastructure
+- local GPIO/system components
+- eLoad runtime path
+- all other regular files verified unchanged by SHA256 manifest
+
+VALIDATION SCOPE
+----------------
+
+Firmware-only/offline validation.
+Runtime smoke testing was performed with ARM QEMU/bwrap.
+No physical Orange Pi One hardware boot test was performed.

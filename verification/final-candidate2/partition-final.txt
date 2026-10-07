@@ -1,0 +1,8 @@
+label: dos
+label-id: 0x5452574f
+device: /home/ethylnet/ETHYLNET-OrangePiOne-Audit/output/ETHYLNET-OrangePiOne-candidate2.img
+unit: sectors
+sector-size: 512
+
+/home/ethylnet/ETHYLNET-OrangePiOne-Audit/output/ETHYLNET-OrangePiOne-candidate2.img1 : start=        2048, size=      131072, type=c, bootable
+/home/ethylnet/ETHYLNET-OrangePiOne-Audit/output/ETHYLNET-OrangePiOne-candidate2.img2 : start=      135168, size=     3096576, type=83

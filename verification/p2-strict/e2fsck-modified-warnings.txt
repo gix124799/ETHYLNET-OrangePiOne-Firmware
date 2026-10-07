@@ -1,0 +1,2 @@
+Padding at end of inode bitmap is not set. Fix? no
+rootfs: ********** WARNING: Filesystem still has errors **********

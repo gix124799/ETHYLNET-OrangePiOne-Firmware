@@ -1,0 +1,11 @@
+--- /home/ethylnet/ETHYLNET-OrangePiOne-Audit/logs/p2-strict/files-original.sha256	2026-10-07 18:48:01.995518768 +0800
++++ /home/ethylnet/ETHYLNET-OrangePiOne-Audit/logs/p2-strict/files-modified.sha256	2026-10-07 18:49:44.201975689 +0800
+@@ -556,7 +556,7 @@
+ b817d70144b48d5595169dcf8fe3a2c089563a6c3275e5a4a2df8f1191f0b941  /soft/config/remote.locations
+ d1239be2d020ad74fd432540ba74714610420f8a4fc299cc9ec1bd7895571908  /soft/config/subvendo.locations
+ 1fca77d09dd06d922a94f6e798a3a82f3c98a7f710c40fa74d3477659a3e0ff9  /soft/config/zerotier
+-bdb41d0902c889efd352c4a209a2b3979dc6b84df360b93763da3d9236bfc234  /soft/index.o
++2ccad853b252aaa842b53052295fe1be0756b68ddade52767c980087aa47d195  /soft/index.o
+ 611ddeccbfddfd72608c873896a9c19d671014e209b139b6e3834be00699284a  /soft/lib/dictionaries/dictionary.rfc2865
+ 6c3529fc28daedfd92b5e65a48893566aea2f81181fff0af67930f470448714b  /soft/lib/dictionaries/dictionary.rfc2866
+ ee1d76d0bf6de5fb2a71152e0781e4ac77afcb34dd79810c24f5216974c5203c  /soft/lib/dictionaries/dictionary.rfc2867
