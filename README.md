@@ -102,28 +102,23 @@ Third-party software and components remain subject to their respective licenses 
 
 <!-- ETHYLNET-LATEST-RELEASE:START -->
 
-## Latest Stable Release — v1.1.0
+## Latest Stable Release — v1.1.1
 
-**ETHYLNET Orange Pi One v1.1.0 Stable — License Patch**
+**ETHYLNET Orange Pi One v1.1.1 Stable — Boot Stability Rollback**
 
-This release includes the ETHYLNET License Patch with:
+v1.1.1 restores the previously working Orange Pi One runtime after a
+boot regression was reported with the v1.1.0 License Patch.
 
-- Level 4
-- HotSpot max 1000
-- PPPoE max 1000
-- Vendo max 1000
-- eLoad enabled
-- Movie enabled
-- Lifetime license status
-- Original hardware serial preserved internally
-- `OPI-[last 10]` serial format for License Info display
+- Previous booting `/soft/index.o` restored
+- v1.1.0 License Patch rolled back
 - Local SSH/Dropbear preserved
-- Vendor remote startup links removed
+- No theme patch included yet
+- Recommended stable recovery build
 
-Flashable artifact:
+Artifact:
 
-`ETHYLNET-OrangePiOne-v1.1.0-UNLIMITED-STABLE.img.gz`
+`ETHYLNET-OrangePiOne-v1.1.1-STABLE-BOOT-ROLLBACK.img.gz`
 
-See `docs/releases/v1.1.0.md` for complete release and verification information.
+See `docs/releases/v1.1.1.md`.
 
 <!-- ETHYLNET-LATEST-RELEASE:END -->

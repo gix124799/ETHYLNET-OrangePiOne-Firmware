@@ -1,0 +1,28 @@
+ETHYLNET Orange Pi One v1.1.1
+Stable Boot Rollback
+====================
+
+Reason:
+v1.1.0 License Patch caused a reported boot regression
+on real Orange Pi One hardware.
+
+Restored runtime:
+Previous known-working Candidate3
+
+Raw image SHA256:
+f8f099c04b62e8c96471522dc92fe56c796ea64b5e6eaa0101f2c4774c1a51c0
+
+/soft/index.o SHA256:
+2ccad853b252aaa842b53052295fe1be0756b68ddade52767c980087aa47d195
+
+Package SHA256:
+16ac779540d1a83a951344ab93d706cb07acb37d2ea0c4ed1eb70c7410726713
+
+License Patch v1.1.0:
+ROLLED BACK
+
+Theme patch:
+NOT INCLUDED
+
+Release type:
+STABLE RECOVERY
